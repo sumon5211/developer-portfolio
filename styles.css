@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-button {
+    padding: 18px 36px;
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+.outline-button {
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 36px;
+    margin-left: 30px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Header Styles */
+
+header {
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, 5px center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+nav h2 {
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav h2 span {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+.hero-area {
+    margin: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-contents h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #181818;
+}
+
+.hero-contents h1 {
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 1;
+    color: #181818;
+    margin: 20px 0px;
+}
+
+.hero-contents p {
+    margin-bottom: 30px;
+}
+.hero-area img {
+    display: block;
+    margin-left: auto;
+}
+/* ----------------------------
+            Main Body Styles
+---------------------------------*/
+main {
+    margin: 0px 10%;
+}
+
+/* ----------------------------
+           About Me Styles
+---------------------------------*/
+.about-me {
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 156px;
+    background: #FFF8F3;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.section-description {
+    margin: 30px 0px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title {
+    font-size: 20px;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* --------------------------------------------
+           What I Do Section Styles
+-----------------------------------------------*/
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.what-i-do-flex {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.what-i-do-content {
+    padding: 30px 23px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.work-title {
+    font-size: 20px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.work-description {
+    font-size: 16px;
+}
+.resume-summery {
+    margin-top: 130px;
+    text-align: center;
+}
+.resume-flex-box {
+    display: flex;
+    gap: 70px;
+    margin-top: 115px;
+    text-align: left;
+}
+.resume-flex-box hr {
+    margin: 30px 0px;
+    border: 1px solid #D1D1D1;
+}
+.flex-title {
+    font-size: 30px;
+    font-weight: 700px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.eduction-title, .experience-title {
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+}
+.education-info, .experience-info {
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-summery .primary-button {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* --------------------------------------------------
+                    Footer Styles
+------------------------------------------------------ */
+footer {
+    padding: 130px 10%;
+    display: flex;
+    gap: 117px;
+    background:#FFF8F3;
+}
+.footer-form {
+    width: 100%;
+}
+.footer-form .section-title {
+    margin-bottom: 28px;
+}
+.footer-form input[type=text], .footer-form input[type=email], .footer-form textarea{
+    padding: 18px 30px;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-form input[type=text]:focus, .footer-form input[type=email]:focus, .footer-form textarea:focus {
+    outline: 1px solid #FD6E0A;
+}
+.footer-form textarea {
+    height: 120px;
+}
+.footer-connect ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.footer-connect ul li a .fa-brands {
+    color: #FD6E0A;
+    font-size: 24px;
+}
